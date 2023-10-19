@@ -1,0 +1,201 @@
+@media  (width > 768px ){
+    .container{
+        width: 768px;
+        overflow: hidden;
+    }
+
+    .botBox{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+
+    .h1{
+        margin-left: 51px;
+        text-align: left;
+    }
+    .smallText{
+        margin-top: 25px;
+        margin-left: 60px;
+        text-align: left;
+        width: 400px;
+    }
+
+    header{
+        margin-right: 10px;
+        margin-top: 30px;
+        width: 768px;
+    }
+
+    .mainBox{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .greyText{
+        width: 339px;
+    }
+
+    .keyboardPic{
+        width: 350px;
+        margin-left: 100px;
+        border-radius: 3%;
+    }
+
+    .midBox2{
+        margin-top: 50px;
+    }
+
+    .preOrder{
+        margin-left: 100px;
+    }
+
+    .orange{
+        margin-left: 50px;
+        width: 200px;
+        height: 280px;
+    }
+
+    .sidePic{
+        margin-left: 15px;
+        height: 280px;
+        width: 370px;
+        border-radius: 15%;
+    }
+
+
+    .mainGrid{
+        grid-template-columns: auto auto;
+        margin-top: 40px;
+    }
+
+    .grid1{
+        margin-left: 47px;
+    }
+
+    .grid1text{
+        margin-left: 50px;
+        width: 255px;
+        text-align: left;
+    }
+    
+    .gridp{
+        margin-left: 50px;
+        width: 255px;
+        text-align: left;
+        width: 281px;
+    }
+
+    .preOrder:hover{
+        background-color: bisque;
+    }
+}
+
+
+
+
+@media (width > 1440px){
+
+    .container{
+       width: 1440px;
+    }
+
+    header{
+        width: 1440px;
+    }
+
+    .greyBox{
+        margin-top: 60px;
+        display: flex;
+    }
+
+    .overflow{
+        animation: move infinite 10s linear;
+    }
+
+    @keyframes move {
+        0%{
+            transform: translateX(0);
+        }
+
+        50%{
+            transform: translateX(-230px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+
+    .greyBox2{
+        display: flex;
+    }
+
+    .mainBox2{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .botBox{
+        display: grid;
+        margin-left: 70px ;
+    }
+
+    .h1{
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+    .smallText{
+        margin-top: -20px;
+        width: 255px;
+    }
+
+    .sidePic{
+        width: 400px;
+        height: 350px;
+    }
+
+    .topText{
+        line-height: 56px;
+        font-size: 56px;
+        width: 445px;
+    }
+
+    .greyText{
+        width: 445px;
+        line-height: 26px;
+        font-size: 18px;
+    }
+
+    .mainBox{
+        margin-left: 130px;
+    }
+
+    .flex{
+        margin-left: 220px;
+    }
+
+    .preOrder{
+        margin-right: 20px;
+    }
+
+    .mainGrid{
+        padding-left: 120px;
+        padding-right: 120px;
+        grid-template-columns:auto auto auto auto;
+    }
+
+    .footer{
+        margin-top: 50px;
+    }
+
+    .grid1text{
+        width: 255px;
+    }
+
+    .gridp{
+        width: 255px;
+    }
+  
+}
+
